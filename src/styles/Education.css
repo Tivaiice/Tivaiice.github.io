@@ -19,6 +19,12 @@
   background: var(--primary-navi);
 }
 
+.education-wrapper {
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+
 .education h1 {
   text-align: left;
   color: var(--primary-txtName);
@@ -27,4 +33,16 @@
 
 .piclogo {
   width: 125px;
+}
+
+.education-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-white);
+  z-index: 1;
 }

@@ -15,13 +15,10 @@ const Education = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <img className="piclogo" src={logokusrc} alt="logokusrc..." />
+            {/* <img className="piclogo" src={logokusrc} alt="logokusrc..." /> */}
             <h3>2016 - 2020</h3>
             <h2>Kasetsart University Sriracha Campus</h2>
-            <p>
-              Kasetsart University Sriracha Campus Bachelor of Engineering
-              (B.Eng.), Computer Engineering
-            </p>
+            <p>Bachelor of Engineering (B.Eng.), Computer Engineering</p>
             <p>GPAX : 2.30</p>
           </div>
         </div>
@@ -29,13 +26,10 @@ const Education = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <img className="piclogo" src={logoLasalle} alt="logokusrc..." />
+            {/* <img className="piclogo" src={logoLasalle} alt="logokusrc..." /> */}
             <h3>2014 - 2016</h3>
             <h2>LaSalle School Collage Bangkok</h2>
-            <p>
-              LaSalle School Collage Bangkok High School Mathmaics x Science
-              Program
-            </p>
+            <p>High School Mathmaics x Science Program</p>
             <p>GPAX : 3.50</p>
           </div>
         </div>
