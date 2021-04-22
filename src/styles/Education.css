@@ -1,0 +1,89 @@
+:root {
+  --primary-white: #ffffff;
+  --primary-whitetxt: #d2ebff;
+  --primary-dark: #343a06;
+  --primary-light-grey: #f4f4f4f4;
+  --primary-skylight: #9ad9fb;
+  --primary-bluebird: #00a6ff;
+  --primary-skyblue: #3444f1;
+  --primary-pic: #002fff;
+  --primary-navi: #030b16;
+  --primary-hover-red: #930000;
+}
+
+/****************************************** EDUCATION ********************************************/
+
+.education {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--primary-navi);
+}
+
+.education h1 {
+  color: var(--primary-pic);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.education h3 {
+  color: var(--primary-white);
+  text-align: left;
+  margin-top: 0.75rem;
+}
+
+.education .NameDetailShool {
+  color: var(--primary-whitetxt);
+  text-align: left;
+  margin-top: 0.75rem;
+}
+
+.education .txttime {
+  color: var(--primary-whitetxt);
+  text-align: right;
+}
+
+/* .education .row:hover {
+  background: var(--primary-skyblue);
+  border-bottom: 0.3125rem solid var(--primary-bluebird);
+} */
+
+.education .row {
+  /* background-color: #e5faf8; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.education .piclasalle {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .education .row {
+    /* background-color: #e5faf8; */
+    margin-top: -0.5rem;
+    padding-bottom: -0.5rem;
+  }
+  .education .piclasalle {
+    width: 5rem;
+  }
+  .education h3 {
+    color: var(--primary-white);
+    text-align: left;
+    margin-top: 0.5rem;
+    font: 1em sans-serif;
+  }
+
+  .education .NameDetailShool {
+    color: var(--primary-whitetxt);
+    text-align: left;
+    margin-top: 0.5rem;
+    font: 0.7em sans-serif;
+  }
+
+  .education .txttime {
+    color: var(--primary-whitetxt);
+    text-align: right;
+    font: 0.7em sans-serif;
+    margin-top: 0.5rem;
+  }
+}

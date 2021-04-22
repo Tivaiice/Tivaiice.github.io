@@ -1,9 +1,10 @@
-import "./App.css";
+import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 70,
+              value: 60,
               density: {
                 enabled: true,
                 value_area: 1000,
@@ -45,6 +46,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Education />
     </>
   );
 }

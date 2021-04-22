@@ -17,7 +17,7 @@ const Header = () => {
           loop
         />
         <a href="#" className="btn-main-offer">
-          Contact me
+          𝙲𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎
         </a>
       </div>
     </div>
