@@ -3,13 +3,13 @@ import "../styles/AboutMe.css";
 import author from "../images/i-sq.jpg";
 import { Animated } from "react-animated-css";
 
-const aboutme = "</ ABOUT ME>";
+const txtAboutme = "</ ABOUT ME>";
 
 const AboutMe = () => {
   return (
     <div className="container py-5">
       <div className="row">
-        <div className="col-lg-6 col-xm-12">
+        <div className="col-lg-6 ">
           <Animated
             animationIn="fadeInRight"
             animationOut="bounceOutLeft"
@@ -22,7 +22,7 @@ const AboutMe = () => {
             </div>
           </Animated>
         </div>
-        <div className="col-lg-6 col-xm-12">
+        <div className="col-lg-6 ">
           <Animated
             animationIn="fadeInLeft"
             animationOut="bounceOutLeft"
@@ -30,7 +30,7 @@ const AboutMe = () => {
             animationOutDuration={2000}
             isVisible={true}
           >
-            <h1 className="about-heading">{aboutme}</h1>
+            <h1 className="about-heading">{txtAboutme}</h1>
             <p>
               Hi ✋ , I am Tiva. I have been developing websites for over 5
               years. I'm Full-Stack Web Developer. Technologies I use is
@@ -50,16 +50,6 @@ const AboutMe = () => {
               website, we will discuss all the details of your niche with you, I
               will conduct a survey of your competitors and make a list of their
               advantages and weaknesses.
-            </p>
-            <p>
-              All this is necessary to give your customers something that your
-              competitors do not provide, or to present it too, but better!
-            </p>
-            <p>
-              After the website is finished and ready to deploy and sell a
-              product or service. It is essential that your potential clients
-              know about you. I will create an advertising campaign for you in
-              Google Adwords and Facebook!
             </p>
           </Animated>
         </div>
