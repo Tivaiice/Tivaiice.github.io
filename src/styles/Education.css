@@ -9,19 +9,18 @@
   --primary-txtName: #002fff;
   --primary-navi: #030b16;
   --primary-hover-red: #930000;
+  --primary-txtEdu: #0099ff;
 }
 
 /****************************************** EDUCATION ********************************************/
-
 .education {
-  text-align: center;
-  padding-bottom: 2rem;
   background: var(--primary-navi);
+  padding: 0.7rem;
 }
 
 .education-wrapper {
-  position: absolute;
-  padding: 3.125rem;
+  position: relative;
+  padding: 3.125rem 0;
   overflow: hidden;
 }
 
@@ -41,8 +40,68 @@
   top: 0;
   left: 50%;
   margin-left: -0.0625rem;
-  width: 0.125rem;
+  width: 0.2rem;
   height: 100%;
   background: var(--primary-white);
   z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-skylight);
+  background: var(--primary-skyblue);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-white);
+  /*จุด ซ้ายขวา
+  direction: rtl;
+  */
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-txtEdu);
+}
+
+@media (max-width: 768px) {
+  .education .container {
+    padding-left: 0;
+  }
+
+  .education-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    width: 100%;
+    direction: ltr;
+  }
 }

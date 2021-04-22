@@ -11,22 +11,16 @@ const Experience = () => {
         <h1 className="txtExp">{txtExperience}</h1>
       </div>
       <div className="container">
-        <Animated
-          animationIn="fadeInRight"
-          animationOut="bounceOutRight"
-          animationInDuration={1500}
-        >
-          <div className="row">
-            <div className="col">
-              <img className="imgi3" src={logi3} alt="logoi3..." />
-            </div>
-            <div className="col">
-              <h3>April 2021 - June 2021</h3>
-              <p>i3 GATEWAY CO.,LTD</p>
-              <p>Mobile Developer</p>
-            </div>
+        <div className="row">
+          <div className="col">
+            <img className="imgi3" src={logi3} alt="logoi3..." />
           </div>
-        </Animated>
+          <div className="col">
+            <h3>April 2021 - June 2021</h3>
+            <p>i3 GATEWAY CO.,LTD</p>
+            <p>Mobile Developer</p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const Education = () => {
       <div className="d-flex justify-content-center my-5">
         <h1>{txtEducation}</h1>
       </div>
-      <div className="container experience-wrapper">
+      <div className="container education-wrapper">
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
