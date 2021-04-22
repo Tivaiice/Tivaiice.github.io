@@ -48,7 +48,7 @@ function App() {
       <Header />
       <AboutMe />
       <Education />
-      {/* <Experience /> */}
+      <Experience />
     </>
   );
 }

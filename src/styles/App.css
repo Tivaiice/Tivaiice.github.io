@@ -81,10 +81,10 @@ nav ul li {
 /****************************************** Header ********************************************/
 .header-wraper {
   position: relative;
-  background-color: #030b16;
-  /* background: url("./images/backgroubd.jpg") no-repeat;
+  /* background-color: #030b16; */
+  background: url("../images//backgroubd.jpg") no-repeat;
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   height: 88vh;
 }
 
@@ -111,6 +111,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+  background-color: #e100ff;
 }
 
 @media (max-width: 768px) {

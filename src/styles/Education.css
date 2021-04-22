@@ -16,6 +16,7 @@
 .education {
   background: var(--primary-navi);
   padding: 0.7rem;
+  padding-bottom: 10rem;
 }
 
 .education-wrapper {
@@ -66,7 +67,7 @@
   height: 1rem;
   border-radius: 50%;
   border: 0.3125rem solid var(--primary-skylight);
-  background: var(--primary-skyblue);
+  background: var(--primary-skylight);
   margin-top: 0.625rem;
   z-index: 3;
 }
