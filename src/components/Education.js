@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Education.css";
-import logoLasalle from "../images/logolasalle.png";
-import logokusrc from "../images/logokusrc.png";
+// import logoLasalle from "../images/logolasalle.png";
+// import logokusrc from "../images/logokusrc.png";
 
 const txtEducation = "</ Education>";
 
@@ -15,22 +15,22 @@ const Education = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            {/* <img className="piclogo" src={logokusrc} alt="logokusrc..." /> */}
-            <h3>2016 - 2020</h3>
-            <h2>Kasetsart University Sriracha Campus</h2>
-            <p>Bachelor of Engineering (B.Eng.), Computer Engineering</p>
-            <p>GPAX : 2.30</p>
+            {/* <img className="piclogo" src={logoLasalle} alt="logokusrc..." /> */}
+            <h3>2014 - 2016</h3>
+            <h2>LaSalle School Collage Bangkok</h2>
+            <p>High School Mathmaics x Science Program</p>
+            <p>GPAX : 3.50</p>
           </div>
         </div>
         {/*  */}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            {/* <img className="piclogo" src={logoLasalle} alt="logokusrc..." /> */}
-            <h3>2014 - 2016</h3>
-            <h2>LaSalle School Collage Bangkok</h2>
-            <p>High School Mathmaics x Science Program</p>
-            <p>GPAX : 3.50</p>
+            {/* <img className="piclogo" src={logokusrc} alt="logokusrc..." /> */}
+            <h3>2016 - 2020</h3>
+            <h2>Kasetsart University Sriracha Campus</h2>
+            <p>Bachelor of Engineering (B.Eng.), Computer Engineering</p>
+            <p>GPAX : 2.30</p>
           </div>
         </div>
       </div>

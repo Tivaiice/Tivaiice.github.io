@@ -68,7 +68,7 @@
   border-radius: 50%;
   border: 0.3125rem solid var(--primary-skylight);
   background: var(--primary-skylight);
-  margin-top: 0.625rem;
+  margin-top: 3.5rem;
   z-index: 3;
 }
 

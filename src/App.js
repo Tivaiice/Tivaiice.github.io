@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       <AboutMe />
       <Education />
       <Experience />
+      <Project />
     </>
   );
 }
