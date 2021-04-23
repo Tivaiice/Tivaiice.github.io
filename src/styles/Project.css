@@ -4,9 +4,10 @@
   --primary-skyblue: #3444f1;
   --primary-dark: #f5f5ff;
   --primary-bluebird: #00a6ff;
-  --primary-hover-red: #930000;
+  --primary-red: #930000;
+  --primary-orange: #ff8c00;
   --primary-pic: #647ef6;
-  --primary-balck: #000000;
+  --primary-black: #000000;
 }
 
 /****************************************** PROJECT ********************************************/
@@ -16,30 +17,260 @@
   padding: 3rem 0;
 }
 
+.project-wrapper h1 {
+  color: var(--primary-skyblue);
+}
+
 .project-image {
   width: 15rem;
-  border: 2px var(--primary-hover-red);
-  padding: 0 0.5rem;
+  /* border: 1px solid var(--primary-orange); */
+  /* padding: 0.5rem 0.5rem; */
 }
 
 .project-image-box {
   position: relative;
-  margin: 5rem;
+  margin: 1rem;
 }
 
-/****************************************** OVERFLOW BOX ********************************************/
+/*------------ OVERFLOW BOX  ------------------*/
 .overflow {
   position: absolute;
   opacity: 0;
-  background: var(--primary-balck);
+  background: var(--primary-black);
   width: 15rem;
   height: 8rem;
   top: 0;
-  border: 1px solid var(--primary-hover-red);
+  /* border: 2px solid var(--primary-red); */
   cursor: pointer;
 }
 
 .project-image-box:hover .overflow {
-  opacity: 60%;
+  opacity: 50%;
+  height: 7.25rem;
   transition: 0.3s ease-in-out;
 }
+
+.project-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.4rem;
+  justify-content: center;
+  align-self: center;
+  color: var(--primary-bluebird);
+  font-size: 1.5rem;
+}
+
+.project-image-box:hover .project-icon {
+  opacity: 85%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*----------------------------------- OVERFLOW BOX WakekyWay  -----------------------------------*/
+.project-image-WakekyWay {
+  width: 15rem;
+}
+.project-image-box-WakekyWay {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow-WakekyWay {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  /* border: 2px solid var(--primary-red); */
+  cursor: pointer;
+}
+
+.project-image-box-WakekyWay:hover .overflow-WakekyWay {
+  opacity: 50%;
+  height: 15rem;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon-WW {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 6.5rem;
+  justify-content: center;
+  align-self: center;
+  color: var(--primary-bluebird);
+  font-size: 1.5rem;
+}
+
+.project-image-box-WakekyWay:hover .project-icon-WW {
+  opacity: 85%;
+  transition: 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+/*----------------------------------- OVERFLOW BOX POPUP WakekyWay  -----------------------------------*/
+.project-image-WakekyWayPopupbox {
+  width: 15rem;
+  padding: 0 0.5rem;
+  margin-left: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: #00a6ff;
+}
+.hyper-link:hover {
+  color: #ff0000;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- OVERFLOW BOX Modify  ---------------------------------------*/
+.project-image-Modify {
+  width: 15rem;
+}
+.project-image-box-Modify {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow-Modify {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  /* border: 2px solid var(--primary-red); */
+  cursor: pointer;
+}
+
+.project-image-box-Modify:hover .overflow-Modify {
+  opacity: 50%;
+  height: 15rem;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon-Modify {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 6.5rem;
+  justify-content: center;
+  align-self: center;
+  color: var(--primary-bluebird);
+  font-size: 1.5rem;
+}
+
+.project-image-box-Modify:hover .project-icon-Modify {
+  opacity: 85%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*----------------------------------- OVERFLOW BOX POPUP Modify  -----------------------------------*/
+.project-image-ModifyPopupbox {
+  width: 40rem;
+  padding: 0 0.5rem;
+  margin-bottom: 1.5rem;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
+.project-image-Pokemon {
+  width: 15rem;
+}
+.project-image-box-Pokemon {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow-Pokemon {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  /* border: 2px solid var(--primary-red); */
+  cursor: pointer;
+}
+
+.project-image-box-Pokemon:hover .overflow-Pokemon {
+  opacity: 50%;
+  height: 15rem;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon-Pokemon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 6.5rem;
+  justify-content: center;
+  align-self: center;
+  color: var(--primary-bluebird);
+  font-size: 1.5rem;
+}
+
+.project-image-box-Pokemon:hover .project-icon-Pokemon {
+  opacity: 85%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*----------------------------------- OVERFLOW BOX POPUP Pokemon  -----------------------------------*/
+.project-image-PokemonPopupbox {
+  width: 40rem;
+  padding: 0 0.5rem;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
+.project-image-Website {
+  width: 15rem;
+}
+.project-image-box-Website {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow-Website {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  /* border: 2px solid var(--primary-red); */
+  cursor: pointer;
+}
+
+.project-image-box-Website:hover .overflow-Website {
+  opacity: 50%;
+  height: 15rem;
+  transition: 0.3s ease-in-out;
+}
+
+.project-icon-Website {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 6.5rem;
+  justify-content: center;
+  align-self: center;
+  color: var(--primary-bluebird);
+  font-size: 1.5rem;
+}
+
+.project-image-box-Website:hover .project-icon-Website {
+  opacity: 85%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*----------------------------------- OVERFLOW BOX POPUP Website  -----------------------------------*/
+.project-image-WebsitePopupbox {
+  width: 40rem;
+  padding: 0 0.5rem;
+}
+/*------------------------------------------------------------------------------------------------------*/
