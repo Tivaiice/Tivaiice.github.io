@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Experience.css";
 import logi3 from "../images/i3GATEWAY.png";
 import { Animated } from "react-animated-css";
 

@@ -6,18 +6,40 @@
   --primary-bluebird: #00a6ff;
   --primary-hover-red: #930000;
   --primary-pic: #647ef6;
-  --primary-gray: #5f6196;
+  --primary-balck: #000000;
 }
 
 /****************************************** PROJECT ********************************************/
 
 .project-wrapper {
-  background: var(--primary-gray);
+  background: var(--primary-dark);
   padding: 3rem 0;
 }
 
 .project-image {
-  width: 50px;
-  border: 1px soild var(--primary-navi);
+  width: 15rem;
+  border: 2px var(--primary-hover-red);
   padding: 0 0.5rem;
+}
+
+.project-image-box {
+  position: relative;
+  margin: 5rem;
+}
+
+/****************************************** OVERFLOW BOX ********************************************/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-balck);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-hover-red);
+  cursor: pointer;
+}
+
+.project-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
 }
