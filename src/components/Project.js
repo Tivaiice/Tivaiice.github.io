@@ -1,9 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "../styles/Project.css";
-import WakekyWay from "../images/WakekyWay.png";
-import Modify from "../images/Modify.png";
-import Pokemon from "../images/Pokemon.png";
+import WakekyWay from "../images/Wakekywayweb1.png";
+import Modify1 from "../images/Modifyweb1.png";
+import Modify2 from "../images/Modifyweb2.png";
+import Pokemon1 from "../images/Pokemonweb1.png";
+import Pokemon2 from "../images/Pokemonweb2.png";
 import Website from "../images/Website.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -52,7 +54,7 @@ const Project = () => {
       <>
         <img
           className="project-image-ModifyPopupbox"
-          src={Modify}
+          src={Modify2}
           alt="Modify Clone Project..."
         />
         <p>AppModify โชว์สินค้ารายการแต่งรถ</p>
@@ -85,8 +87,8 @@ const Project = () => {
       <>
         <img
           className="project-image-PokemonPopupbox"
-          src={Pokemon}
-          alt="Modify Clone Project..."
+          src={Pokemon2}
+          alt="Pokemon Clone Project..."
         />
         <p>App Pokemon โชว์รายละเอียดของPokemon</p>
         <b>GitHub : </b>
@@ -119,7 +121,7 @@ const Project = () => {
         <img
           className="project-image-WebsitePopupbox"
           src={Website}
-          alt="Modify Clone Project..."
+          alt="Website Clone Project..."
         />
         <p>Website</p>
         <b>GitHub : </b>
@@ -149,6 +151,7 @@ const Project = () => {
     <div id="project" className="project-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">{txtProject}</h1>
+        <h1 className="text-uppercase text-left">Mobile</h1>
         <div className="image-box-wrapper row justify-content-center">
           <div
             className="project-image-box-WakekyWay"
@@ -169,7 +172,7 @@ const Project = () => {
           >
             <img
               className="project-image-Modify"
-              src={Modify}
+              src={Modify1}
               alt="Modify Project..."
             />
             <div className="overflow-Modify"></div>
@@ -185,7 +188,7 @@ const Project = () => {
           >
             <img
               className="project-image-Pokemon"
-              src={Pokemon}
+              src={Pokemon1}
               alt="Pokemon Project..."
             />
             <div className="overflow-Pokemon"></div>
@@ -194,23 +197,9 @@ const Project = () => {
               icon={faSearchPlus}
             />
           </div>
-          {/* - */}
-          <div
-            className="project-image-box-Website"
-            onClick={openPopupboxWebsite}
-          >
-            <img
-              className="project-image-Website"
-              src={Website}
-              alt="Website Project..."
-            />
-            <div className="overflow-Website"></div>
-            <FontAwesomeIcon
-              className="project-icon-Website"
-              icon={faSearchPlus}
-            />
-          </div>
         </div>
+        <h1 className="text-uppercase text-left">Website</h1>
+        <h3 className="text-center">Coming Soon !</h3>
       </div>
       <PopupboxContainer {...openPopupboxConfigWakekyWay} />
       <PopupboxContainer {...openPopupboxConfigModify} />
@@ -221,3 +210,15 @@ const Project = () => {
 };
 
 export default Project;
+
+// <div className="image-box-wrapper row justify-content-center">
+//   <div className="project-image-box-Website" onClick={openPopupboxWebsite}>
+//     <img
+//       className="project-image-Website"
+//       src={Website}
+//       alt="Website Project..."
+//     />
+//     <div className="overflow-Website"></div>
+//     <FontAwesomeIcon className="project-icon-Website" icon={faSearchPlus} />
+//   </div>
+// </div>;

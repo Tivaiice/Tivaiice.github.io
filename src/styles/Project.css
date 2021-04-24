@@ -89,19 +89,23 @@
 
 .project-image-box-WakekyWay:hover .overflow-WakekyWay {
   opacity: 50%;
-  height: 15rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 29.7rem;
   transition: 0.3s ease-in-out;
 }
 
 .project-icon-WW {
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 6.5rem;
+  margin-left: -8.5rem;
+  margin-top: 14rem;
   justify-content: center;
   align-self: center;
   color: var(--primary-bluebird);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .project-image-box-WakekyWay:hover .project-icon-WW {
@@ -129,7 +133,7 @@
 
 /*----------------------------------------- OVERFLOW BOX Modify  ---------------------------------------*/
 .project-image-Modify {
-  width: 15rem;
+  width: 15.03rem;
 }
 .project-image-box-Modify {
   position: relative;
@@ -149,19 +153,23 @@
 
 .project-image-box-Modify:hover .overflow-Modify {
   opacity: 50%;
-  height: 15rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 29.7rem;
   transition: 0.3s ease-in-out;
 }
 
 .project-icon-Modify {
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 6.5rem;
+  margin-left: -8.5rem;
+  margin-top: 14rem;
   justify-content: center;
   align-self: center;
   color: var(--primary-bluebird);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .project-image-box-Modify:hover .project-icon-Modify {
@@ -171,15 +179,15 @@
 }
 /*----------------------------------- OVERFLOW BOX POPUP Modify  -----------------------------------*/
 .project-image-ModifyPopupbox {
-  width: 40rem;
+  width: 20rem;
   padding: 0 0.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
 .project-image-Pokemon {
-  width: 15rem;
+  width: 15.09rem;
 }
 .project-image-box-Pokemon {
   position: relative;
@@ -199,19 +207,23 @@
 
 .project-image-box-Pokemon:hover .overflow-Pokemon {
   opacity: 50%;
-  height: 15rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 29.7rem;
   transition: 0.3s ease-in-out;
 }
 
 .project-icon-Pokemon {
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 6.5rem;
+  margin-left: -8.5rem;
+  margin-top: 14rem;
   justify-content: center;
   align-self: center;
   color: var(--primary-bluebird);
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .project-image-box-Pokemon:hover .project-icon-Pokemon {
@@ -221,14 +233,15 @@
 }
 /*----------------------------------- OVERFLOW BOX POPUP Pokemon  -----------------------------------*/
 .project-image-PokemonPopupbox {
-  width: 40rem;
+  width: 20rem;
   padding: 0 0.5rem;
+  margin: 1.5rem;
 }
 /*------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
 .project-image-Website {
-  width: 15rem;
+  width: 50rem;
 }
 .project-image-box-Website {
   position: relative;
