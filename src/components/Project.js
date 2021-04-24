@@ -6,7 +6,7 @@ import Modify1 from "../images/Modifyweb1.png";
 import Modify2 from "../images/Modifyweb2.png";
 import Pokemon1 from "../images/Pokemonweb1.png";
 import Pokemon2 from "../images/Pokemonweb2.png";
-import Website from "../images/Website.png";
+// import Website from "../images/Website.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -138,14 +138,14 @@ const Project = () => {
   //   PopupboxManager.open({ content });
   // };
 
-  const openPopupboxConfigWebsite = {
-    titleBar: {
-      enable: true,
-      text: "Website",
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
-  };
+  // const openPopupboxConfigWebsite = {
+  //   titleBar: {
+  //     enable: true,
+  //     text: "Website",
+  //   },
+  //   fadeIn: true,
+  //   fadeInSpeed: 500,
+  // };
 
   return (
     <div id="project" className="project-wrapper">
