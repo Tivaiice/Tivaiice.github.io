@@ -115,28 +115,28 @@ const Project = () => {
   };
 
   //Website
-  const openPopupboxWebsite = () => {
-    const content = (
-      <>
-        <img
-          className="project-image-WebsitePopupbox"
-          src={Website}
-          alt="Website Clone Project..."
-        />
-        <p>Website</p>
-        <b>GitHub : </b>
-        <a
-          className="hyper-link"
-          onClick={() =>
-            window.open("https://github.com/Tivaiice/Pokemon_Search")
-          }
-        >
-          https://github.com/Tivaiice/Pokemon_Search
-        </a>
-      </>
-    );
-    PopupboxManager.open({ content });
-  };
+  // const openPopupboxWebsite = () => {
+  //   const content = (
+  //     <>
+  //       <img
+  //         className="project-image-WebsitePopupbox"
+  //         src={Website}
+  //         alt="Website Clone Project..."
+  //       />
+  //       <p>Website</p>
+  //       <b>GitHub : </b>
+  //       <a
+  //         className="hyper-link"
+  //         onClick={() =>
+  //           window.open("https://github.com/Tivaiice/Pokemon_Search")
+  //         }
+  //       >
+  //         https://github.com/Tivaiice/Pokemon_Search
+  //       </a>
+  //     </>
+  //   );
+  //   PopupboxManager.open({ content });
+  // };
 
   const openPopupboxConfigWebsite = {
     titleBar: {
@@ -204,7 +204,7 @@ const Project = () => {
       <PopupboxContainer {...openPopupboxConfigWakekyWay} />
       <PopupboxContainer {...openPopupboxConfigModify} />
       <PopupboxContainer {...openPopupboxConfigPokemon} />
-      <PopupboxContainer {...openPopupboxConfigWebsite} />
+      {/* <PopupboxContainer {...openPopupboxConfigWebsite} /> */}
     </div>
   );
 };
