@@ -129,9 +129,35 @@
 .hyper-link:hover {
   color: #ff0000;
 }
-/*------------------------------------------------------------------------------------------------------*/
 
-/*----------------------------------------- OVERFLOW BOX Modify  ---------------------------------------*/
+@media (max-width: 768px) {
+  .project-image-WakekyWayPopupbox {
+    width: 80%;
+    margin-left: 1.8rem;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 85%;
+  }
+  .project-image-WakekyWayPopupbox {
+    width: 50%;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .project-image-WakekyWayPopupbox {
+    width: 30%;
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------- OVERFLOW BOX Modify ---------------------------------------*/
 .project-image-Modify {
   width: 15.03rem;
 }
@@ -182,6 +208,32 @@
   width: 20rem;
   padding: 0 0.5rem;
   margin: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .project-image-ModifyPopupbox {
+    width: 80%;
+    margin-left: 1.8rem;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 85%;
+  }
+  .project-image-ModifyPopupbox {
+    width: 50%;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .project-image-ModifyPopupbox {
+    width: 30%;
+  }
 }
 /*------------------------------------------------------------------------------------------------------*/
 
@@ -237,6 +289,32 @@
   padding: 0 0.5rem;
   margin: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .project-image-PokemonPopupbox {
+    width: 80%;
+    margin-left: 1.8rem;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 85%;
+  }
+  .project-image-PokemonPopupbox {
+    width: 50%;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .project-image-PokemonPopupbox {
+    width: 30%;
+  }
+}
 /*------------------------------------------------------------------------------------------------------*/
 
 /*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
@@ -286,4 +364,31 @@
   width: 40rem;
   padding: 0 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .project-image-WebsitePopupbox {
+    width: 80%;
+    margin-left: 1.8rem;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 85%;
+  }
+  .project-image-WebsitePopupbox {
+    width: 50%;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .project-image-WebsitePopupbox {
+    width: 30%;
+  }
+}
+
 /*------------------------------------------------------------------------------------------------------*/
