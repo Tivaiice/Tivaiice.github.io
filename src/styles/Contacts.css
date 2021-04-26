@@ -26,6 +26,7 @@
 }
 
 /****************************************** INPUT ********************************************/
+/*------------------ INPUTS -------------------------------*/
 .contacts input,
 .contacts textarea {
   width: 100%;
@@ -33,14 +34,13 @@
   background: none;
   resize: none;
   border: 0;
-  border-bottom: 0.125rem solid var(--primary-bluebird);
+  border-bottom: 0.125rem solid #e4fcff;
   border-radius: 0;
-  color: #00f7ffe0;
+  color: #006aff;
   outline: 0 !important;
   box-shadow: none !important;
-  top: 0;
   margin-bottom: 1rem;
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 
 .contacts .container {
@@ -50,8 +50,8 @@
 .contacts input:focus,
 .contacts textarea:focus {
   background: transparent;
-  color: #00f7ffe0;
-  border-bottom: 0.125rem solid var(--primary-bluebird);
+  color: #f0f0f0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
 }
 
 .contacts textarea {
@@ -66,15 +66,15 @@
 
 .line {
   position: relative;
-  top: -0.8;
+  top: -0.8rem;
   width: 0;
-  height: 1rem;
-  background-color: var(--primary-hover-red);
+  height: 0.125rem;
+  background: #00a6ff;
   display: inline-block;
 }
 
-.input:focus + .line,
-.textarea:focus + .line {
+input:focus + .line,
+textarea:focus + .line {
   width: 100%;
   transition: width 0.5s ease-in-out;
 }
@@ -83,15 +83,30 @@ input.form-control {
   margin: -0.3rem 0;
 }
 
-/******************************* MEDIA *******************************/
+textarea.form-control {
+  margin: -0.3rem 0;
+}
 
+.error-message {
+  color: #ff0000;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: #00ff7f;
+}
+
+/*---------------- MEDIA -----------------------*/
 @media (max-width: 768px) {
   .contacts {
     overflow-x: hidden;
   }
+
   .contacts .container {
     padding: 0 1rem;
   }
+
   .contacts p {
     padding: 0 0.4rem;
   }
