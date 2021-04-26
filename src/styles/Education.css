@@ -1,20 +1,6 @@
-:root {
-  --primary-white: #ffffff;
-  --primary-whitetxt: #d2ebff;
-  --primary-dark: #343a06;
-  --primary-light-grey: #f4f4f4f4;
-  --primary-skylight: #9ad9fb;
-  --primary-bluebird: #00a6ff;
-  --primary-skyblue: #3444f1;
-  --primary-txtName: #002fff;
-  --primary-navi: #030b16;
-  --primary-hover-red: #930000;
-  --primary-txtEdu: #0099ff;
-}
-
 /****************************************** EDUCATION ********************************************/
 .education {
-  background: var(--primary-navi);
+  background: #030b16;
   padding: 0.7rem;
   padding-bottom: 10rem;
 }
@@ -27,7 +13,7 @@
 
 .education h1 {
   text-align: left;
-  color: var(--primary-txtName);
+  color: #002fff;
   padding-top: 5rem;
 }
 
@@ -43,7 +29,7 @@
   margin-left: -0.0625rem;
   width: 0.2rem;
   height: 100%;
-  background: var(--primary-white);
+  background: #ffffff;
   z-index: 1;
 }
 
@@ -66,8 +52,8 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.3125rem solid var(--primary-skylight);
-  background: var(--primary-skylight);
+  border: 0.3125rem solid #9ad9fb;
+  background: #9ad9fb;
   margin-top: 3.5rem;
   z-index: 3;
 }
@@ -75,7 +61,7 @@
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: var(--primary-white);
+  color: #ffffff;
   /*จุด ซ้ายขวา
   direction: rtl;
   */
@@ -84,7 +70,7 @@
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-txtEdu);
+  color: #0099ff;
 }
 
 @media (max-width: 768px) {

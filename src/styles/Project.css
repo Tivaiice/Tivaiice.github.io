@@ -1,29 +1,17 @@
-:root {
-  --primary-white: #ffffff;
-  --primary-navi: #030b16;
-  --primary-skyblue: #3444f1;
-  --primary-dark: #f5f5ff;
-  --primary-bluebird: #00a6ff;
-  --primary-red: #930000;
-  --primary-orange: #ff8c00;
-  --primary-pic: #647ef6;
-  --primary-black: #000000;
-}
-
 /****************************************** PROJECT ********************************************/
 
 .project-wrapper {
-  background: var(--primary-dark);
+  background: #f5f5ff;
   padding: 3rem 0;
 }
 
 .project-wrapper h1 {
-  color: var(--primary-skyblue);
+  color: #3444f1;
 }
 
 .project-image {
   width: 15rem;
-  /* border: 1px solid var(--primary-orange); */
+  /* border: 1px solid #ff8c00; */
   /* padding: 0.5rem 0.5rem; */
 }
 
@@ -36,11 +24,11 @@
 .overflow {
   position: absolute;
   opacity: 0;
-  background: var(--primary-black);
+  background: #000000;
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid var(--primary-red); */
+  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 
@@ -57,7 +45,7 @@
   margin-top: 3.4rem;
   justify-content: center;
   align-self: center;
-  color: var(--primary-bluebird);
+  color: #00a6ff;
   font-size: 1.5rem;
 }
 
@@ -79,11 +67,11 @@
 .overflow-WakekyWay {
   position: absolute;
   opacity: 0;
-  background: var(--primary-black);
+  background: #000000;
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid var(--primary-red); */
+  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 
@@ -104,7 +92,7 @@
   margin-top: 14rem;
   justify-content: center;
   align-self: center;
-  color: var(--primary-bluebird);
+  color: #00a6ff;
   font-size: 1.8rem;
 }
 
@@ -169,11 +157,11 @@
 .overflow-Modify {
   position: absolute;
   opacity: 0;
-  background: var(--primary-black);
+  background: #000000;
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid var(--primary-red); */
+  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 
@@ -194,7 +182,7 @@
   margin-top: 14rem;
   justify-content: center;
   align-self: center;
-  color: var(--primary-bluebird);
+  color: #00a6ff;
   font-size: 1.8rem;
 }
 
@@ -249,11 +237,11 @@
 .overflow-Pokemon {
   position: absolute;
   opacity: 0;
-  background: var(--primary-black);
+  background: #000000;
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid var(--primary-red); */
+  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 
@@ -274,7 +262,7 @@
   margin-top: 14rem;
   justify-content: center;
   align-self: center;
-  color: var(--primary-bluebird);
+  color: #00a6ff;
   font-size: 2rem;
 }
 
@@ -329,11 +317,11 @@
 .overflow-Website {
   position: absolute;
   opacity: 0;
-  background: var(--primary-black);
+  background: #000000;
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid var(--primary-red); */
+  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 
@@ -350,7 +338,7 @@
   margin-top: 6.5rem;
   justify-content: center;
   align-self: center;
-  color: var(--primary-bluebird);
+  color: #00a6ff;
   font-size: 1.5rem;
 }
 

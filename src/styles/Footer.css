@@ -1,17 +1,7 @@
-:root {
-  --primary-white: #ffffff;
-  --primary-navi: #030b16;
-  --primary-skyblue: #3444f1;
-  --primary-dark: #f5f5ff;
-  --primary-bluebird: #00a6ff;
-  --primary-hover-red: #930000;
-  --primary-pic: #002fff;
-}
-
 /****************************** FOOTER ********************************/
 .footer {
   background: #030b16;
-  color: aliceblue;
+  color: #ffffff;
   padding: 3rem;
 }
 
@@ -28,8 +18,4 @@
 
 .footer p {
   margin-bottom: 0;
-}
-
-.container p {
-  color: #f2f9ff;
 }

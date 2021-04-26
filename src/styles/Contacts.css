@@ -1,17 +1,7 @@
-:root {
-  --primary-white: #ffffff;
-  --primary-navi: #030b16;
-  --primary-skyblue: #3444f1;
-  --primary-dark: #f5f5ff;
-  --primary-bluebird: #00a6ff;
-  --primary-hover-red: #930000;
-  --primary-pic: #002fff;
-}
-
 /****************************************** Contacts COMPONENT ********************************************/
 
 .contacts {
-  background: var(--primary-navi);
+  background: #030b16;
   padding: 3rem 0;
 }
 
@@ -20,12 +10,12 @@
 }
 
 .txtContacts {
-  color: var(--primary-white);
+  color: #ffffff;
   padding: 1.3rem 0;
 }
 
 .contacts p {
-  color: var(--primary-skyblue);
+  color: #3444f1;
   font-size: 1.2rem;
 }
 
@@ -55,7 +45,7 @@
 .contacts textarea:focus {
   background: transparent;
   color: #f0f0f0;
-  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-bottom: 0.125rem solid #828181;
 }
 
 .contacts textarea {

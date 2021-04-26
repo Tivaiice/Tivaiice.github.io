@@ -1,13 +1,3 @@
-:root {
-  --primary-white: #ffffff;
-  --primary-navi: #030b16;
-  --primary-skyblue: #3444f1;
-  --primary-dark: #f5f5ff;
-  --primary-bluebird: #00a6ff;
-  --primary-hover-red: #930000;
-  --primary-pic: #002fff;
-}
-
 /****************************************** ABOUT ME ********************************************/
 
 .photo-wrap {
@@ -21,11 +11,11 @@
   width: 400px;
   border-radius: 50%;
   padding: 0.3rem;
-  border: thick double var(--primary-pic);
+  border: thick double #002fff;
 }
 
 .about-heading {
-  color: var(--primary-pic);
+  color: #002fff;
   padding-top: 50px;
   text-transform: uppercase;
 }

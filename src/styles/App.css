@@ -1,21 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
-:root {
-  --primary-white: #ffffff;
-  --primary-navi: #030b16;
-  --primary-skyblue: #3444f1;
-  --primary-dark: rgb(245, 245, 255);
-  --primary-bluebird: #00a6ff;
-  --primary-hover-red: #930000;
-}
-
 body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 /****************************************** NAVBAR ********************************************/
 
 nav {
-  background-color: var(--primary-navi);
+  background-color: #030b16;
   z-index: 2;
 }
 
@@ -38,14 +29,13 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
+  color: #ffffff !important;
 }
 
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
-  /* border-top: 0.25rem solid var(--primary-dark); */
 }
 
 @media (max-width: 768px) {
@@ -56,26 +46,15 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-top: solid 0.25rem var(--primary-skyblue);
+  border-top: solid 0.25rem #3444f1;
   height: 2px;
-  background: var(--primary-skyblue);
-
-  /* content: "";
-  position: absolute;
-  height: 11px;
-  background: rgb(52, 68, 241);
-  bottom: 6px;
-  left: 0px;
-  z-index: 5;
-  transform: scaleX(0);
-  transform-origin: right center 0px;
-  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s; */
+  background: #3444f1;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: solid 0.25rem var(--primary-skyblue);
+  border-top: solid 0.25rem #3444f1;
   height: 2px;
-  background: var(--primary-skyblue);
+  background: #3444f1;
 }
 
 /****************************************** Header ********************************************/
@@ -103,14 +82,14 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-white);
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 /******************************** TYPED TEXT ********************************/
 .typed-text {
   font-size: 2rem;
-  color: var(--primary-white);
+  color: #ffffff;
   background-color: #e100ff;
 }
 
@@ -122,18 +101,18 @@ nav ul li {
 
 /************************** HEADER MAIN OFFER BUTTON *************************/
 .btn-main-offer {
-  border: 1px solid var(--primary-bluebird);
+  border: 1px solid #00a6ff;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  color: #ffffff;
   margin: 2rem;
 }
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-bluebird);
-  color: var(--primary-white);
+  background-color: #00a6ff;
+  color: #ffffff;
   transition: 0.2s ease-in-out;
 }
 
