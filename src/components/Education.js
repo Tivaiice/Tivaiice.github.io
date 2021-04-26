@@ -1,13 +1,11 @@
 import React from "react";
 import "../styles/Education.css";
-// import logoLasalle from "../images/logolasalle.png";
-// import logokusrc from "../images/logokusrc.png";
 
 const txtEducation = "</ Education>";
 
 const Education = () => {
   return (
-    <div className="education">
+    <div id="education" className="education">
       <div className="d-flex justify-content-center my-5">
         <h1>{txtEducation}</h1>
       </div>

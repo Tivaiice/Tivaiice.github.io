@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Particles
+        id="home"
         className="particles-canvas"
         params={{
           particles: {
@@ -21,7 +23,7 @@ function App() {
               value: 75,
               density: {
                 enabled: true,
-                value_area: 1000,
+                value_area: 800,
               },
             },
             color: {
@@ -37,7 +39,7 @@ function App() {
             shape: {
               type: "circle",
               stroke: {
-                width: 3,
+                width: 5,
                 color: "#46aef7",
               },
             },
@@ -52,6 +54,7 @@ function App() {
       <AboutMe />
       <Education />
       <Experience />
+      <Skills />
       <Project />
       <Contacts />
       <Footer />

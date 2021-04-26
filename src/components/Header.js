@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -10,15 +11,16 @@ const Header = () => {
           className="typed-text"
           strings={[
             "Hello, I'm Tiva Wongratkatanyoo",
+            "I'm interested in Full-Stack devloper",
             "I'm Graduate from Kasetsart University Sriracha Campus",
           ]}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <Link to="contact" smooth={true} href="#" className="btn-main-offer">
           Contact me
-        </a>
+        </Link>
       </div>
     </div>
   );

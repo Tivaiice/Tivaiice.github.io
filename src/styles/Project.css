@@ -2,7 +2,8 @@
 
 .project-wrapper {
   background: #f5f5ff;
-  padding: 3rem 0;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 .project-wrapper h1 {
