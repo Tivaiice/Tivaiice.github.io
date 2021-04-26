@@ -15,6 +15,10 @@
   padding: 3rem 0;
 }
 
+.contacts h1 {
+  color: #ffffff;
+}
+
 .txtContacts {
   color: var(--primary-white);
   padding: 1.3rem 0;
@@ -36,7 +40,7 @@
   border: 0;
   border-bottom: 0.125rem solid #e4fcff;
   border-radius: 0;
-  color: #006aff;
+  color: #00a6ff;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
@@ -69,7 +73,7 @@
   top: -0.8rem;
   width: 0;
   height: 0.125rem;
-  background: #00a6ff;
+  background: #00e5ff;
   display: inline-block;
 }
 
