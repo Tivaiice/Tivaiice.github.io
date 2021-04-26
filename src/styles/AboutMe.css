@@ -9,19 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .profile-img {
   width: 400px;
   border-radius: 50%;
   padding: 0.3rem;
-  border: thick double #002fff;
+  border: thick double #1900ff;
 }
 
 .about-heading {
   color: #002fff;
-  margin-top: -5rem;
 }
 
 .about-details1 {

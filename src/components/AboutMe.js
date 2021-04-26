@@ -7,6 +7,9 @@ const txtAboutme = "</ ABOUT ME>";
 const AboutMe = () => {
   return (
     <div id="about" className="aboutme">
+      <h1 className="d-flex justify-content-center about-heading ">
+        {txtAboutme}
+      </h1>
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-6 ">
@@ -15,7 +18,6 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="col-lg-6 ">
-            <h1 className="about-heading">{txtAboutme}</h1>
             <p className="about-details1">
               Hi ✋ , I am Tiva. I have been developing websites for over 5
               years. I'm Full-Stack Web Developer. Technologies I use is
