@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 60,
+              value: 75,
               density: {
                 enabled: true,
                 value_area: 1000,
@@ -30,8 +31,8 @@ function App() {
               color: "#30c7ec",
               distance: 200,
               enable: true,
-              opacity: 0.5,
-              width: 1,
+              opacity: 0.85,
+              width: 2,
             },
             shape: {
               type: "circle",
@@ -53,6 +54,7 @@ function App() {
       <Experience />
       <Project />
       <Contacts />
+      <Footer />
     </>
   );
 }
