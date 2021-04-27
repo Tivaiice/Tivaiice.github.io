@@ -6,12 +6,20 @@ const Header = () => {
   return (
     <div class="header-wraper">
       <div class="main-info">
-        <h1>My Website ~</h1>
+        <h1>
+          Hi, There
+          <img
+            src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+            width="100px"
+            className="githand"
+            alt="..."
+          />
+        </h1>
         <Typed
           className="typed-text"
           strings={[
             "Hello, I'm Tiva Wongratkatanyoo",
-            "I'm interested in Full-Stack devloper",
+            "I'm interested in Software Engineer",
             "I'm Graduate from Kasetsart University Sriracha Campus",
           ]}
           typeSpeed={40}

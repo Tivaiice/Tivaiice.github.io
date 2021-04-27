@@ -10,10 +10,13 @@
   color: #3444f1;
 }
 
+.project-wrapper p {
+  color: #000000;
+  font-size: 2rem;
+}
+
 .project-image {
   width: 15rem;
-  /* border: 1px solid #ff8c00; */
-  /* padding: 0.5rem 0.5rem; */
 }
 
 .project-image-box {
@@ -162,7 +165,6 @@
   width: 15rem;
   height: 8rem;
   top: 0;
-  /* border: 2px solid #930000; */
   cursor: pointer;
 }
 

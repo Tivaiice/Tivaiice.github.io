@@ -1,43 +1,51 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import author from "../images/i-sq.jpg";
-
+// import { Animated } from "react-animated-css";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
 const txtAboutme = "</ ABOUT ME>";
 
 const AboutMe = () => {
   return (
     <div id="about" className="aboutme">
-      <h1 className="d-flex justify-content-center about-heading ">
-        {txtAboutme}
-      </h1>
+      <Flip top>
+        <h1 className="d-flex justify-content-center about-heading ">
+          {txtAboutme}
+        </h1>
+      </Flip>
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-6 ">
             <div className="photo-wrap mb-5">
-              <img className="profile-img" src={author} alt="author..." />
+              <Fade left>
+                <img className="profile-img" src={author} alt="author..." />
+              </Fade>
             </div>
           </div>
           <div className="col-lg-6 ">
-            <p className="about-details1">
-              Hi ✋ , I am Tiva. I have been developing websites for over 5
-              years. I'm Full-Stack Web Developer. Technologies I use is
-              MERN(MongoDB, Express, ReactJS and NodeJS).
-            </p>
-            <p>
-              I create responsive websites that are displayed on all devices
-              desktops and smartphones.
-            </p>
-            <p>
-              Of course, before I begin developing any webapp, Landing Page,
-              Business Website or E-commerce, I need to have a ready-made
-              project layout (sketch).
-            </p>
-            <p>
-              And I’m ready to do this for you, before we start developing your
-              website, we will discuss all the details of your niche with you, I
-              will conduct a survey of your competitors and make a list of their
-              advantages and weaknesses.
-            </p>
+            <Fade right>
+              <p className="about-details1">
+                Hi ✋ , I am Tiva Wongratkatanyoo, <br />
+                I'm interested in <a className="textSE">
+                  Software Engineer
+                </a>, <br />
+                I'm Graduate from{" "}
+                <a className="textSE">
+                  Kasetsart University
+                  <br /> Sriracha Campus.
+                </a>
+                <br />
+              </p>
+              <p>
+                I'm passionate about learning new things and quickly learning
+                new technologies. My passion for software lies with dreaming up
+                ideas and making them come true with elegant interfaces. I take
+                grate care in the experience and code quality of the things I
+                build.
+              </p>
+              <p></p>
+            </Fade>
           </div>
         </div>
       </div>

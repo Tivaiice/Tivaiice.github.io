@@ -12,6 +12,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
+import Flip from "react-reveal/Flip";
 const txtProject = "</ PROJECT>";
 
 const Project = () => {
@@ -150,56 +151,69 @@ const Project = () => {
   return (
     <div id="project" className="project-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">{txtProject}</h1>
-        <h1 className="text-uppercase text-left">Mobile</h1>
+        <Flip bottom>
+          <h1 className="text-uppercase text-center py-5">{txtProject}</h1>
+          <p className="text-uppercase text-left">Mobile</p>
+        </Flip>
         <div className="image-box-wrapper row justify-content-center">
-          <div
-            className="project-image-box-WakekyWay"
-            onClick={openPopupboxWakekyWay}
-          >
-            <img
-              className="project-image-WakekyWay"
-              src={WakekyWay}
-              alt="WakekyWay Clone Project..."
-            />
-            <div className="overflow-WakekyWay"></div>
-            <FontAwesomeIcon className="project-icon-WW" icon={faSearchPlus} />
-          </div>
+          <Flip left>
+            <div
+              className="project-image-box-WakekyWay"
+              onClick={openPopupboxWakekyWay}
+            >
+              <img
+                className="project-image-WakekyWay"
+                src={WakekyWay}
+                alt="WakekyWay Clone Project..."
+              />
+              <div className="overflow-WakekyWay"></div>
+              <FontAwesomeIcon
+                className="project-icon-WW"
+                icon={faSearchPlus}
+              />
+            </div>
+          </Flip>
           {/* - */}
-          <div
-            className="project-image-box-Modify"
-            onClick={openPopupboxModify}
-          >
-            <img
-              className="project-image-Modify"
-              src={Modify1}
-              alt="Modify Project..."
-            />
-            <div className="overflow-Modify"></div>
-            <FontAwesomeIcon
-              className="project-icon-Modify"
-              icon={faSearchPlus}
-            />
-          </div>
+          <Flip left>
+            <div
+              className="project-image-box-Modify"
+              onClick={openPopupboxModify}
+            >
+              <img
+                className="project-image-Modify"
+                src={Modify1}
+                alt="Modify Project..."
+              />
+              <div className="overflow-Modify"></div>
+              <FontAwesomeIcon
+                className="project-icon-Modify"
+                icon={faSearchPlus}
+              />
+            </div>
+          </Flip>
           {/* - */}
-          <div
-            className="project-image-box-Pokemon"
-            onClick={openPopupboxPokemon}
-          >
-            <img
-              className="project-image-Pokemon"
-              src={Pokemon1}
-              alt="Pokemon Project..."
-            />
-            <div className="overflow-Pokemon"></div>
-            <FontAwesomeIcon
-              className="project-icon-Pokemon"
-              icon={faSearchPlus}
-            />
-          </div>
+          <Flip left>
+            <div
+              className="project-image-box-Pokemon"
+              onClick={openPopupboxPokemon}
+            >
+              <img
+                className="project-image-Pokemon"
+                src={Pokemon1}
+                alt="Pokemon Project..."
+              />
+              <div className="overflow-Pokemon"></div>
+              <FontAwesomeIcon
+                className="project-icon-Pokemon"
+                icon={faSearchPlus}
+              />
+            </div>
+          </Flip>
         </div>
-        <h1 className="text-uppercase text-left">Website</h1>
-        <h3 className="text-center">Coming Soon !</h3>
+        {/* <Flip bottom>
+          <p className="text-uppercase text-left">Website</p>
+          <p className="text-center">Coming Soon !</p>
+        </Flip> */}
       </div>
       <PopupboxContainer {...openPopupboxConfigWakekyWay} />
       <PopupboxContainer {...openPopupboxConfigModify} />

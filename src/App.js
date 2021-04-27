@@ -30,7 +30,7 @@ function App() {
               value: "#16d9e3",
             },
             links: {
-              color: "#30c7ec",
+              color: "#3444f1",
               distance: 200,
               enable: true,
               opacity: 0.85,

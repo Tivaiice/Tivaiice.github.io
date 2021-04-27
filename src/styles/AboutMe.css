@@ -2,14 +2,14 @@
 .aboutme {
   padding: 0.7rem;
   padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .photo-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .profile-img {
@@ -23,9 +23,18 @@
   color: #002fff;
 }
 
+.textSE {
+  color: #002fff;
+}
+
+.textSE:hover {
+  color: #002fff;
+  text-decoration: none;
+}
+
 .about-details1 {
-  font-size: 2rem;
-  margin-top: 5rem;
+  font-size: 1.5rem;
+  margin-top: 5.5rem;
 }
 
 @media (max-width: 468px) {

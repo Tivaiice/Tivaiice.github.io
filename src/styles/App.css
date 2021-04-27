@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
 
 body {
-  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Bai Jamjuree", sans-serif !important;
 }
 /****************************************** NAVBAR ********************************************/
 .particles-canvas {
@@ -62,13 +62,20 @@ nav ul li {
 /****************************************** Header ********************************************/
 .header-wraper {
   position: relative;
-  /* background-color: #030b16; */
-  background: url("../images//backgroubd.jpg") no-repeat;
+  background-color: #030b16;
+  /* background: url("../images//backgroubd.jpg") no-repeat; */
   background-size: cover;
   background-position: center;
   height: 88vh;
 }
 
+.header-wraper h1 {
+  font-size: 8rem;
+}
+
+.githand {
+  margin-top: -35px;
+}
 .main-info {
   display: flex;
   position: absolute;
@@ -92,7 +99,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: #ffffff;
-  background-color: #5500ff;
+  /* background-color: #6f52ab; */
 }
 
 @media (max-width: 768px) {
@@ -103,9 +110,8 @@ nav ul li {
 
 /************************** HEADER MAIN OFFER BUTTON *************************/
 .btn-main-offer {
-  border: 1px solid #00a6ff;
+  border: 1.5px solid #3444f1;
   text-transform: uppercase;
-  border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: #ffffff;
   margin: 2rem;
@@ -113,8 +119,8 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: #00a6ff;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #3444f1;
   transition: 0.2s ease-in-out;
 }
 

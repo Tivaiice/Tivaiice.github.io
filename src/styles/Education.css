@@ -14,7 +14,7 @@
 
 .education h1 {
   text-align: left;
-  color: #002fff;
+  color: #ffffff;
   padding-bottom: 1rem;
 }
 
@@ -53,8 +53,8 @@
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  border: 0.3125rem solid #9ad9fb;
-  background: #9ad9fb;
+  border: 0.3125rem solid #ffffff;
+  background: #ffffff;
   margin-top: 3.5rem;
   z-index: 3;
 }
@@ -71,7 +71,7 @@
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: #0099ff;
+  color: #3444f1;
 }
 
 @media (max-width: 768px) {

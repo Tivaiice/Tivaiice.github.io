@@ -32,7 +32,7 @@
   border: 0;
   border-bottom: 0.125rem solid #e4fcff;
   border-radius: 0;
-  color: #00a6ff;
+  color: #ffffff;
   outline: 0 !important;
   box-shadow: none !important;
   margin-bottom: 1rem;
@@ -47,7 +47,7 @@
 .contacts textarea:focus {
   background: transparent;
   color: #f0f0f0;
-  border-bottom: 0.125rem solid #828181;
+  border-bottom: 0.12rem solid #ffffff;
 }
 
 .contacts textarea {
@@ -65,7 +65,7 @@
   top: -0.8rem;
   width: 0;
   height: 0.125rem;
-  background: #00e5ff;
+  background: #3444f1;
   display: inline-block;
 }
 
