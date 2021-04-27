@@ -3,7 +3,7 @@ import "../styles/Education.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 
-const txtEducation = "</ Education>";
+const txtEducation = "</ EDUCATION>";
 
 const Education = () => {
   return (
