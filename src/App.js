@@ -20,7 +20,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setWifiLoading();
-    }, 500);
+    }, 3000);
   }
 
   setWifiLoading = () => {
