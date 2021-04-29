@@ -1,3 +1,5 @@
+import react, { useEffect } from "react";
+import { WifiLoader } from "react-awesome-loaders";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
@@ -12,6 +14,20 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      <WifiLoader
+        background={"transparent"}
+        desktopSize={"150px"}
+        mobileSize={"150px"}
+        text={"Welcome to MyProfile"}
+        backColor="#E8F2FC"
+        frontColor="#4645F6"
+      />;
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <Particles
