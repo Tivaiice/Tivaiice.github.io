@@ -20,7 +20,7 @@ const Experience = () => {
             <img className="imgi3" src={logi3} alt="logoi3..." />
 
             <p>
-              <a className="textDate">April 2021 - June 2021</a> <br />
+              <a className="textDate">April 2020 - June 2020</a> <br />
               i3 GATEWAY CO.,LTD
               <a className="textV">(</a> Mobile Developer
               <a className="textV">)</a>
