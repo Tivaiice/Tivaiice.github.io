@@ -25,8 +25,8 @@ const Project = () => {
           src="https://media.giphy.com/media/bwvloUaCoGXBF3ileD/giphy.gif"
           alt="WakekyWay Clone Project..."
         />
-        <p>Project AppWakekyWay แอปพลิเคชั่นแจ้งเตือนก่อนถึงที่หมาย</p>
-        <b>GitHub : </b>
+        <p className="textpop">Project AppWakekyWay</p>
+        <b className="textpop">GitHub : </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -58,8 +58,8 @@ const Project = () => {
           src={Modify2}
           alt="Modify Clone Project..."
         />
-        <p>AppModify โชว์สินค้ารายการแต่งรถ</p>
-        <b>GitHub : </b>
+        <p className="textpop">AppModify</p>
+        <b className="textpop">GitHub : </b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -91,8 +91,8 @@ const Project = () => {
           src={Pokemon2}
           alt="Pokemon Clone Project..."
         />
-        <p>App Pokemon โชว์รายละเอียดของPokemon</p>
-        <b>GitHub : </b>
+        <p className="textpop">App Pokemon</p>
+        <b className="textpop">GitHub : </b>
         <a
           className="hyper-link"
           onClick={() =>

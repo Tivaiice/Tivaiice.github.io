@@ -108,12 +108,13 @@
 }
 /*----------------------------------- OVERFLOW BOX POPUP WakekyWay  -----------------------------------*/
 .project-image-WakekyWayPopupbox {
-  width: 15rem;
-  padding: 0 0.5rem;
-  margin-left: 5rem;
-  margin-bottom: 1.5rem;
+  width: 30%;
+  padding: 0 1rem;
+  margin-left: 20rem;
 }
-
+.popupbox-wrapper {
+  margin-top: 5rem;
+}
 .hyper-link {
   cursor: pointer;
   color: #00a6ff;
@@ -124,27 +125,44 @@
 
 @media (max-width: 768px) {
   .project-image-WakekyWayPopupbox {
-    width: 80%;
-    margin-left: 1.8rem;
+    height: 60%;
+    width: 50%;
+    margin-left: 4rem;
+  }
+  .popupbox-wrapper {
+    width: 40%;
+  }
+  .textpop {
+    font-size: 20px;
   }
 }
 
 @media (max-height: 570px) {
-  .popupbox-wrapper {
-    height: 85%;
-  }
   .project-image-WakekyWayPopupbox {
     width: 50%;
-    margin-left: 4rem;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 30%;
+    margin-top: 8rem;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 
 @media (max-height: 280px) {
-  .popupbox-wrapper {
-    height: 90%;
-  }
   .project-image-WakekyWayPopupbox {
-    width: 30%;
+    height: 200px;
+    width: 200px;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 80%;
+    margin-top: 8rem;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 
@@ -196,34 +214,62 @@
 }
 /*----------------------------------- OVERFLOW BOX POPUP Modify  -----------------------------------*/
 .project-image-ModifyPopupbox {
-  width: 20rem;
-  padding: 0 0.5rem;
-  margin: 1.5rem;
+  height: 70%;
+  width: 35%;
+  margin-left: 18rem;
+}
+.popupbox-wrapper {
+  width: 50%;
+}
+.hyper-link {
+  cursor: pointer;
+  color: #00a6ff;
+}
+.hyper-link:hover {
+  color: #ff0000;
 }
 
 @media (max-width: 768px) {
   .project-image-ModifyPopupbox {
+    height: 75%;
+    width: 55%;
+    margin-left: 4rem;
+  }
+  .popupbox-wrapper {
     width: 80%;
-    margin-left: 1.8rem;
+    height: 70%;
+  }
+  .textpop {
+    font-size: 20px;
   }
 }
 
 @media (max-height: 570px) {
-  .popupbox-wrapper {
-    height: 85%;
-  }
   .project-image-ModifyPopupbox {
     width: 50%;
-    margin-left: 4rem;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 50px;
+    height: 100px;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 
 @media (max-height: 280px) {
-  .popupbox-wrapper {
-    height: 90%;
-  }
   .project-image-ModifyPopupbox {
-    width: 30%;
+    height: 200px;
+    width: 200px;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 80%;
+    margin-top: 8rem;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 /*------------------------------------------------------------------------------------------------------*/
@@ -276,34 +322,62 @@
 }
 /*----------------------------------- OVERFLOW BOX POPUP Pokemon  -----------------------------------*/
 .project-image-PokemonPopupbox {
-  width: 20rem;
-  padding: 0 0.5rem;
-  margin: 1.5rem;
+  height: 70%;
+  width: 35%;
+  margin-left: 18rem;
+}
+.popupbox-wrapper {
+  width: 50%;
+}
+.hyper-link {
+  cursor: pointer;
+  color: #00a6ff;
+}
+.hyper-link:hover {
+  color: #ff0000;
 }
 
 @media (max-width: 768px) {
   .project-image-PokemonPopupbox {
+    height: 75%;
+    width: 55%;
+    margin-left: 4rem;
+  }
+  .popupbox-wrapper {
     width: 80%;
-    margin-left: 1.8rem;
+    height: 70%;
+  }
+  .textpop {
+    font-size: 20px;
   }
 }
 
 @media (max-height: 570px) {
-  .popupbox-wrapper {
-    height: 85%;
-  }
   .project-image-PokemonPopupbox {
     width: 50%;
-    margin-left: 4rem;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 50px;
+    height: 100px;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 
 @media (max-height: 280px) {
-  .popupbox-wrapper {
-    height: 90%;
-  }
   .project-image-PokemonPopupbox {
-    width: 30%;
+    height: 200px;
+    width: 200px;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 80%;
+    margin-top: 8rem;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 /*------------------------------------------------------------------------------------------------------*/
