@@ -1,5 +1,4 @@
-import react, { useEffect } from "react";
-import { WifiLoader } from "react-awesome-loaders";
+import { useEffect } from "react";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
@@ -12,18 +11,11 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
-
+import Loading from "./components/Loading";
 function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      <WifiLoader
-        background={"transparent"}
-        desktopSize={"150px"}
-        mobileSize={"150px"}
-        text={"Welcome to MyProfile"}
-        backColor="#E8F2FC"
-        frontColor="#4645F6"
-      />;
+      <Loading />;
     }, 5000);
     return () => clearTimeout(timer);
   }, []);
