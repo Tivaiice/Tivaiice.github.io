@@ -1,9 +1,13 @@
 import React from "react";
 import "../styles/Footer.css";
 import {
+  Envelope,
+  EnvelopeFill,
   Facebook,
   Github,
   Linkedin,
+  Mailbox,
+  Mailbox2,
   TelephoneFill,
   Youtube,
 } from "react-bootstrap-icons";
@@ -23,7 +27,10 @@ const Footer = () => {
               </a>
             </div>
             <div className="d-flex">
-              <p>tiva.wongrat@gmail.com</p>
+              <p>
+                <EnvelopeFill color="#FFFFFF" size={17} />
+                {"  "} tiva.wongrat@gmail.com
+              </p>
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 social">
