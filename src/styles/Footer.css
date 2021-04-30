@@ -22,3 +22,30 @@
 .txtCopy {
   margin-right: 1.1rem;
 }
+@media (max-width: 768px) {
+  .iconbox {
+    margin-top: 2.5rem;
+    margin-left: -0.5rem;
+  }
+  .txtCopy {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-height: 570px) {
+  .iconbox {
+    margin-top: 2rem;
+  }
+  .txtCopy {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-height: 280px) {
+  .iconbox {
+    margin-top: 2rem;
+  }
+  .txtCopy {
+    margin-left: 1rem;
+  }
+}

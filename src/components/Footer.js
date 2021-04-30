@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 social">
-            <div className="d-flex flex-row-reverse">
+            <div className="d-flex flex-row-reverse iconbox">
               <a href="https://www.youtube.com/channel/UCeajNI58NWdffaDZRHQPK2A">
                 <Youtube className="mx-3" color="#cd201f" size={36} />
               </a>
