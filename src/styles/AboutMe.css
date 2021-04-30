@@ -41,4 +41,10 @@
   .profile-img {
     width: 200px;
   }
+  .photo-wrap {
+    margin-top: -5rem;
+  }
+  .about-details1 {
+    margin-top: -1rem;
+  }
 }

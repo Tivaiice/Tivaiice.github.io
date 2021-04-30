@@ -20,18 +20,10 @@ const Experience = () => {
             <img className="imgi3" src={logi3} alt="logoi3..." />
 
             <p>
-              <a href=" " className="textDate">
-                April 2020 - June 2020
-              </a>{" "}
-              <br />
+              <a className="textDate">April 2020 - June 2020</a> <br />
               i3 GATEWAY CO.,LTD
-              <a href=" " className="textV">
-                (
-              </a>{" "}
-              Mobile Developer
-              <a href=" " className="textV">
-                )
-              </a>
+              <a className="textV">(</a> Mobile Developer
+              <a className="textV">)</a>
             </p>
           </div>
         </Fade>
