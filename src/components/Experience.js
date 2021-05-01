@@ -22,6 +22,8 @@ const Experience = () => {
             <p>
               <a className="textDate">April 2020 - June 2020</a> <br />
               i3 GATEWAY CO.,LTD
+              <br />
+              INTERNSHIP
               <a className="textV">(</a> Mobile Developer
               <a className="textV">)</a>
             </p>
