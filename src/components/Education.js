@@ -21,7 +21,7 @@ const Education = () => {
               {/* <img className="piclogo" src={logoLasalle} alt="logokusrc..." /> */}
               <h3>2014 - 2016</h3>
               <h2>LaSalle School Collage Bangkok</h2>
-              <p>High School Mathmaics x Science Program</p>
+              <p>High School Mathematics x Science Program</p>
               <p>GPAX : 3.41</p>
             </div>
           </div>
