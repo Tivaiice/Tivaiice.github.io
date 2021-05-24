@@ -1,13 +1,10 @@
 import React from "react";
 import "../styles/Footer.css";
 import {
-  Envelope,
   EnvelopeFill,
   Facebook,
   Github,
   Linkedin,
-  Mailbox,
-  Mailbox2,
   TelephoneFill,
   Youtube,
 } from "react-bootstrap-icons";

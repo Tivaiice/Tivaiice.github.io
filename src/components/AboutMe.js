@@ -28,7 +28,7 @@ const AboutMe = () => {
               <p className="about-details1">
                 Hi ✋ , I am Tiva Wongratkatanyoo, <br />
                 I'm interested in <a className="textSE">
-                  Software Engineer
+                  Mobile Developer
                 </a>, <br />
                 I'm Graduate from{" "}
                 <a className="textSE">

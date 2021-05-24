@@ -6,7 +6,7 @@ import Modify1 from "../images/Modifyweb1.png";
 import Modify2 from "../images/Modifyweb2.png";
 import Pokemon1 from "../images/Pokemonweb1.png";
 import Pokemon2 from "../images/Pokemonweb2.png";
-// import Website from "../images/Website.png";
+// import COVID19 from "../images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -115,13 +115,13 @@ const Project = () => {
     fadeInSpeed: 500,
   };
 
-  //Website
-  // const openPopupboxWebsite = () => {
+  // COVID19
+  // const openPopupboxCOVID19 = () => {
   //   const content = (
   //     <>
   //       <img
   //         className="project-image-WebsitePopupbox"
-  //         src={Website}
+  //         src={COVID19}
   //         alt="Website Clone Project..."
   //       />
   //       <p>Website</p>
@@ -129,10 +129,10 @@ const Project = () => {
   //       <a
   //         className="hyper-link"
   //         onClick={() =>
-  //           window.open("https://github.com/Tivaiice/Pokemon_Search")
+  //           window.open("https://github.com/Tivaiice/COVID-19_TRACKER")
   //         }
   //       >
-  //         https://github.com/Tivaiice/Pokemon_Search
+  //         https://github.com/Tivaiice/COVID-19_TRACKER
   //       </a>
   //     </>
   //   );

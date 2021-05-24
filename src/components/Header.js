@@ -19,7 +19,7 @@ const Header = () => {
           className="typed-text"
           strings={[
             "Hello, I'm Tiva Wongratkatanyoo",
-            "I'm interested in Software Engineer",
+            "I'm interested in Mobile Developer",
             "I'm Graduate from Kasetsart University Sriracha Campus",
           ]}
           typeSpeed={40}
