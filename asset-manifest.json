@@ -1,32 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2170692.chunk.css",
-    "main.js": "/static/js/main.ddf04bfc.chunk.js",
-    "main.js.map": "/static/js/main.ddf04bfc.chunk.js.map",
+    "main.css": "/static/css/main.08353e25.chunk.css",
+    "main.js": "/static/js/main.4aa2b6bf.chunk.js",
+    "main.js.map": "/static/js/main.4aa2b6bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9ba91478.js",
     "runtime-main.js.map": "/static/js/runtime-main.9ba91478.js.map",
     "static/css/2.a894a7ba.chunk.css": "/static/css/2.a894a7ba.chunk.css",
-    "static/js/2.b95a4dd8.chunk.js": "/static/js/2.b95a4dd8.chunk.js",
-    "static/js/2.b95a4dd8.chunk.js.map": "/static/js/2.b95a4dd8.chunk.js.map",
+    "static/js/2.200a8a69.chunk.js": "/static/js/2.200a8a69.chunk.js",
+    "static/js/2.200a8a69.chunk.js.map": "/static/js/2.200a8a69.chunk.js.map",
     "static/js/3.6e8df6a2.chunk.js": "/static/js/3.6e8df6a2.chunk.js",
     "static/js/3.6e8df6a2.chunk.js.map": "/static/js/3.6e8df6a2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a894a7ba.chunk.css.map": "/static/css/2.a894a7ba.chunk.css.map",
-    "static/css/main.d2170692.chunk.css.map": "/static/css/main.d2170692.chunk.css.map",
-    "static/js/2.b95a4dd8.chunk.js.LICENSE.txt": "/static/js/2.b95a4dd8.chunk.js.LICENSE.txt",
+    "static/css/main.08353e25.chunk.css.map": "/static/css/main.08353e25.chunk.css.map",
+    "static/js/2.200a8a69.chunk.js.LICENSE.txt": "/static/js/2.200a8a69.chunk.js.LICENSE.txt",
     "static/media/Modifyweb1.6a1459d2.png": "/static/media/Modifyweb1.6a1459d2.png",
     "static/media/Modifyweb2.7e2e3d0e.png": "/static/media/Modifyweb2.7e2e3d0e.png",
     "static/media/Pokemonweb1.d2d0e601.png": "/static/media/Pokemonweb1.d2d0e601.png",
     "static/media/Pokemonweb2.5286113c.png": "/static/media/Pokemonweb2.5286113c.png",
     "static/media/Wakekywayweb1.018bf273.png": "/static/media/Wakekywayweb1.018bf273.png",
+    "static/media/covid1.8cbd2e62.png": "/static/media/covid1.8cbd2e62.png",
     "static/media/i-sq.caed368c.jpg": "/static/media/i-sq.caed368c.jpg",
-    "static/media/logoweb2.82f93719.png": "/static/media/logoweb2.82f93719.png"
+    "static/media/logoweb2.82f93719.png": "/static/media/logoweb2.82f93719.png",
+    "static/media/magicbox.737b059c.png": "/static/media/magicbox.737b059c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9ba91478.js",
     "static/css/2.a894a7ba.chunk.css",
-    "static/js/2.b95a4dd8.chunk.js",
-    "static/css/main.d2170692.chunk.css",
-    "static/js/main.ddf04bfc.chunk.js"
+    "static/js/2.200a8a69.chunk.js",
+    "static/css/main.08353e25.chunk.css",
+    "static/js/main.4aa2b6bf.chunk.js"
   ]
 }
