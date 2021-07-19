@@ -7,12 +7,10 @@ import Modify2 from "../images/Modifyweb2.png";
 import Pokemon1 from "../images/Pokemonweb1.png";
 import Pokemon2 from "../images/Pokemonweb2.png";
 import COVID19 from "../images/covid1.png";
-import Web from "../images/web.mp4"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
-import ReactPlayer from "react-player";
 
 import Flip from "react-reveal/Flip";
 const txtProject = "</ PROJECT>";
