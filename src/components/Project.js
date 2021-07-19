@@ -6,7 +6,7 @@ import Modify1 from "../images/Modifyweb1.png";
 import Modify2 from "../images/Modifyweb2.png";
 import Pokemon1 from "../images/Pokemonweb1.png";
 import Pokemon2 from "../images/Pokemonweb2.png";
-// import COVID19 from "../images";
+import COVID19 from "../images/covid1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
@@ -116,37 +116,37 @@ const Project = () => {
   };
 
   // COVID19
-  // const openPopupboxCOVID19 = () => {
-  //   const content = (
-  //     <>
-  //       <img
-  //         className="project-image-WebsitePopupbox"
-  //         src={COVID19}
-  //         alt="Website Clone Project..."
-  //       />
-  //       <p>Website</p>
-  //       <b>GitHub : </b>
-  //       <a
-  //         className="hyper-link"
-  //         onClick={() =>
-  //           window.open("https://github.com/Tivaiice/COVID-19_TRACKER")
-  //         }
-  //       >
-  //         https://github.com/Tivaiice/COVID-19_TRACKER
-  //       </a>
-  //     </>
-  //   );
-  //   PopupboxManager.open({ content });
-  // };
+  const openPopupboxCOVID19 = () => {
+    const content = (
+      <>
+        <img
+          className="project-image-COVID19Popupbox"
+          src="https://media.giphy.com/media/CRDLa7FtjwcL6qTT5s/giphy.gif"
+          alt="COVID19 Project..."
+        />
+        <p>COVID-19 TRACKER</p>
+        <b>GitHub : </b>
+        <a
+          className="hyper-link"
+          onClick={() =>
+            window.open("https://github.com/Tivaiice/COVID-19_TRACKER")
+          }
+        >
+          https://github.com/tivawong/COVID-19_TRACKER
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
 
-  // const openPopupboxConfigWebsite = {
-  //   titleBar: {
-  //     enable: true,
-  //     text: "Website",
-  //   },
-  //   fadeIn: true,
-  //   fadeInSpeed: 500,
-  // };
+  const openPopupboxConfigCOVID19 = {
+    titleBar: {
+      enable: true,
+      text: "Website",
+    },
+    fadeIn: true,
+    fadeInSpeed: 500,
+  };
 
   return (
     <div id="project" className="project-wrapper">
@@ -209,6 +209,24 @@ const Project = () => {
               />
             </div>
           </Flip>
+          {/* - */}
+          <Flip left>
+            <div
+              className="project-image-box-COVID19"
+              onClick={openPopupboxCOVID19}
+            >
+              <img
+                className="project-image-COVID19"
+                src={COVID19}
+                alt="COVID19 Project..."
+              />
+              <div className="overflow-COVID19"></div>
+              <FontAwesomeIcon
+                className="project-icon-COVID19"
+                icon={faSearchPlus}
+              />
+            </div>
+          </Flip>
         </div>
         {/* <Flip bottom>
           <p className="text-uppercase text-left">Website</p>
@@ -218,7 +236,7 @@ const Project = () => {
       <PopupboxContainer {...openPopupboxConfigWakekyWay} />
       <PopupboxContainer {...openPopupboxConfigModify} />
       <PopupboxContainer {...openPopupboxConfigPokemon} />
-      {/* <PopupboxContainer {...openPopupboxConfigWebsite} /> */}
+      <PopupboxContainer {...openPopupboxConfigCOVID19} />
     </div>
   );
 };

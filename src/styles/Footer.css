@@ -30,6 +30,9 @@
   .txtCopy {
     margin-left: -5rem;
   }
+  .spaceFooter{
+    justify-content: center;
+  }
 }
 
 @media (max-height: 570px) {
@@ -40,6 +43,9 @@
   .txtCopy {
     margin-left: -1rem;
   }
+  .spaceFooter{
+    justify-content: center;
+  }
 }
 
 @media (max-height: 280px) {
@@ -49,5 +55,8 @@
   }
   .txtCopy {
     margin-left: -1rem;
+  }
+  .spaceFooter{
+    justify-content: center;
   }
 }

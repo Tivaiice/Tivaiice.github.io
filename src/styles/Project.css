@@ -382,16 +382,16 @@
 }
 /*------------------------------------------------------------------------------------------------------*/
 
-/*----------------------------------------- OVERFLOW BOX Pokemon  ---------------------------------------*/
-.project-image-Website {
-  width: 50rem;
+/*----------------------------------------- OVERFLOW BOX COVID19  ---------------------------------------*/
+.project-image-COVID19 {
+  width: 15.09rem;
 }
-.project-image-box-Website {
+.project-image-box-COVID19 {
   position: relative;
   margin: 1rem;
 }
 
-.overflow-Website {
+.overflow-COVID19 {
   position: absolute;
   opacity: 0;
   background: #000000;
@@ -402,58 +402,91 @@
   cursor: pointer;
 }
 
-.project-image-box-Website:hover .overflow-Website {
+.project-image-box-COVID19:hover .overflow-COVID19 {
   opacity: 50%;
-  height: 15rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 29.7rem;
   transition: 0.3s ease-in-out;
 }
 
-.project-icon-Website {
+.project-icon-COVID19 {
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 6.5rem;
+  margin-left: -8.5rem;
+  margin-top: 14rem;
   justify-content: center;
   align-self: center;
   color: #00a6ff;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-.project-image-box-Website:hover .project-icon-Website {
+.project-image-box-COVID19:hover .project-icon-COVID19 {
   opacity: 85%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-/*----------------------------------- OVERFLOW BOX POPUP Website  -----------------------------------*/
-.project-image-WebsitePopupbox {
-  width: 40rem;
-  padding: 0 0.5rem;
+/*----------------------------------- OVERFLOW BOX POPUP COVID19  -----------------------------------*/
+.project-image-COVID19Popupbox {
+  height: 50%;
+  width: 30%;
+  margin-left: 18rem;
+}
+.popupbox-wrapper {
+  width: 50%;
+}
+.hyper-link {
+  cursor: pointer;
+  color: #00a6ff;
+}
+.hyper-link:hover {
+  color: #ff0000;
 }
 
 @media (max-width: 768px) {
-  .project-image-WebsitePopupbox {
+  .project-image-COVID19Popupbox {
+    height: 75%;
+    width: 55%;
+    margin-left: 4rem;
+  }
+  .popupbox-wrapper {
     width: 80%;
-    margin-left: 1.8rem;
+    height: 70%;
+  }
+  .textpop {
+    font-size: 20px;
   }
 }
 
 @media (max-height: 570px) {
-  .popupbox-wrapper {
-    height: 85%;
-  }
-  .project-image-WebsitePopupbox {
+  .project-image-COVID19Popupbox {
     width: 50%;
-    margin-left: 4rem;
+    margin-left: 1rem;
+  }
+  .popupbox-wrapper {
+    width: 50px;
+    height: 100px;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
 
 @media (max-height: 280px) {
-  .popupbox-wrapper {
-    height: 90%;
+  .project-image-COVID19Popupbox {
+    height: 200px;
+    width: 200px;
+    margin-left: 1rem;
   }
-  .project-image-WebsitePopupbox {
-    width: 30%;
+  .popupbox-wrapper {
+    width: 80%;
+    margin-top: 8rem;
+  }
+  .textpop {
+    font-size: 18px;
   }
 }
-
 /*------------------------------------------------------------------------------------------------------*/
+
