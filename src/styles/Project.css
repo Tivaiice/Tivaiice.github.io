@@ -490,3 +490,47 @@
 }
 /*------------------------------------------------------------------------------------------------------*/
 
+
+/*----------------------------------------- OVERFLOW BOX Website  ---------------------------------------*/
+.project-image-Website {
+  width: 33rem;
+}
+.project-image-box-Website {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow-Website {
+  position: absolute;
+  opacity: 0;
+  background: #000000;
+  width: 33rem;
+  height: 20.6rem;
+  top: 0;
+  /* border: 2px solid #930000; */
+  cursor: pointer;
+}
+
+.project-image-box-Website:hover .overflow-Website {
+  opacity: 35%;
+  height: 20.6rem;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .project-image-Website {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .project-image-Website {
+    width: 18rem;
+  }
+}
+
+@media (width: 414px) and (max-height: 736px) {
+  .project-image-Website {
+    width: 18rem;
+  }
+}

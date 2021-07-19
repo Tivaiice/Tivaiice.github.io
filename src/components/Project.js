@@ -7,10 +7,12 @@ import Modify2 from "../images/Modifyweb2.png";
 import Pokemon1 from "../images/Pokemonweb1.png";
 import Pokemon2 from "../images/Pokemonweb2.png";
 import COVID19 from "../images/covid1.png";
+import Web from "../images/web.mp4"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
+import ReactPlayer from "react-player";
 
 import Flip from "react-reveal/Flip";
 const txtProject = "</ PROJECT>";
@@ -124,7 +126,7 @@ const Project = () => {
           src="https://media.giphy.com/media/CRDLa7FtjwcL6qTT5s/giphy.gif"
           alt="COVID19 Project..."
         />
-        <p>COVID-19 TRACKER</p>
+        <p>AppCOVID-19</p>
         <b>GitHub : </b>
         <a
           className="hyper-link"
@@ -228,10 +230,24 @@ const Project = () => {
             </div>
           </Flip>
         </div>
-        {/* <Flip bottom>
+        <Flip bottom>
           <p className="text-uppercase text-left">Website</p>
-          <p className="text-center">Coming Soon !</p>
-        </Flip> */}
+          <div className="image-box-wrapper row justify-content-center">
+            <div className="project-image-box-Website">
+              <a
+                className="hyper-link"
+                onClick={() => window.open("https://sawanya-saeng.github.io/")}
+              >
+                <img
+                  className="project-image-Website"
+                  src="https://media.giphy.com/media/0MBXopKduZtZCyif52/giphy.gif"
+                  alt="Website Project..."
+                />
+                <div className="overflow-Website" />
+              </a>
+            </div>
+          </div>
+        </Flip>
       </div>
       <PopupboxContainer {...openPopupboxConfigWakekyWay} />
       <PopupboxContainer {...openPopupboxConfigModify} />
@@ -243,14 +259,4 @@ const Project = () => {
 
 export default Project;
 
-// <div className="image-box-wrapper row justify-content-center">
-//   <div className="project-image-box-Website" onClick={openPopupboxWebsite}>
-//     <img
-//       className="project-image-Website"
-//       src={Website}
-//       alt="Website Project..."
-//     />
-//     <div className="overflow-Website"></div>
-//     <FontAwesomeIcon className="project-icon-Website" icon={faSearchPlus} />
-//   </div>
-// </div>;
+
